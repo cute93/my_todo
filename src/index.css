@@ -1,12 +1,14 @@
+@import './variables.css';
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
-  background: #f2f2f7;
-  color: #1c1c1e;
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
