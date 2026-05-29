@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.tab {
+  padding: 6px 16px;
+  font-size: 14px;
+  background: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tab:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+}
